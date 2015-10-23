@@ -1,6 +1,6 @@
 FROM oberthur/docker-volumes:latest
 
-ENV DOCKER_VERSION=1.8.2
+ENV DOCKER_VERSION=1.7.1
 
 RUN apk add --update openssl \
     && rm /var/cache/apk/* \
